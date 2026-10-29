@@ -1,0 +1,23 @@
+# Credenciales y configuración local
+upload.config
+
+# Ficheros subidos o pendientes de subir
+Uploads/*
+!Uploads/**/
+!Uploads/**/.gitkeep
+Completed/*
+!Completed/**/
+!Completed/**/.gitkeep
+
+# Registro de transferencias
+upload.log
+
+# Entornos virtuales y cachés de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Configuración local de editores
+.vscode/
+.idea/

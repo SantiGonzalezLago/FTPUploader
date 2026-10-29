@@ -1,0 +1,14 @@
+[ftp]
+host=ftp.ejemplo.com
+port=21
+username=usuario_ftp
+password=pon_aqui_la_contraseña
+
+tls=true
+remote_dir=/
+timeout=30
+
+[paths]
+upload_dir=Uploads
+completed_dir=Completed
+log_file=upload.log
